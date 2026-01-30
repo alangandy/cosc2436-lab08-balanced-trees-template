@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Pytest Tests Pass",
+      "setup": "pip install pytest",
+      "run": "pytest tests/ -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 60,
+      "points": 70
+    },
+    {
+      "name": "AVL Tree Module Exists",
+      "setup": "",
+      "run": "python -c \"from balanced_tree import AVLTree; print('Class exists')\"",
+      "input": "",
+      "output": "Class exists",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Main Runs",
+      "setup": "",
+      "run": "python main.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 15
+    }
+  ]
+}
